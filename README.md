@@ -1,13 +1,15 @@
-# README
+# MongoDB Netflix Database
+
+This is a set of files that turn a netflix show/film dataset into a MongoDB database.
 
 ## Marked Tasks
 
-- [ ] Document store running correctly with appropriate data
-- [ ] Collection has embedded arrays
-- [ ] Validator included and working
-- [ ] Query shows selection of embedded data
-- [ ] Query demonstrates aggregation pipelines
-- [ ] Update and delete working (and insert?)
+- [x] Document store running correctly with appropriate data
+- [x] Collection has embedded arrays
+- [x] Validator included and working
+- [x] Query shows selection of embedded data
+- [x] Query demonstrates aggregation pipelines
+- [x] Update and delete working (and insert?)
 
 ## Deliverables
 
