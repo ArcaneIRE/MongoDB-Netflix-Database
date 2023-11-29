@@ -37,11 +37,11 @@ validator = {
                 'bsonType': 'array',
                 'items': {
                     'bsonType': 'object',
-                    'required': ['title', 'age_rating_description', 'age_rating_score', 'release_year', 'user_rating_score'],
+                    'required': ['title'],
                     'properties': {
                         'title': {'bsonType': 'string'},
-                        'age_rating_description': {'bsonType': ['string', 'null']},
-                        'age_rating_score': {'bsonType': 'int'},
+                        'age_rating_description': {'bsonType': ['string', 'null'], 'minimum': 0},
+                        'age_rating_score': {'bsonType': 'int', 'minimum': 0},
                         'release_year': {'bsonType': 'int', 'minimum': 1500},
                         'user_rating_score': {'bsonType': 'double'},
                     }
